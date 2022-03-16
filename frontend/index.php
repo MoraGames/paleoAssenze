@@ -1,5 +1,5 @@
 <?php
 
-require('\pages\landing.php');
+require('./pages/landing.php');
 
 ?>
