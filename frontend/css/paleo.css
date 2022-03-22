@@ -19,3 +19,40 @@ button > img {
   height: 1em;
   margin-right: 0.5em;
 }
+
+/*------------ Timetable ------------*/
+.timetable{
+  width: 100%;
+}
+.hour{
+  display: flex;
+  gap: 1em;
+}
+.sub{
+  background-color: #48c78e;
+  color: white;
+  padding: 0.5em;
+  font-size: 1.5em;
+  font-weight: 600;
+  width: 4em;
+  text-align: center;
+}
+.details{
+  background-color: #d8d8d8;
+  padding: 1em;
+}
+.details>i{
+  float: right;
+}
+.details>div{
+  margin-top: 0.5em;
+  display: flex;
+  gap: 1em;
+}
+.details.closed{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.details.closed>div{
+  display:none;
+}
