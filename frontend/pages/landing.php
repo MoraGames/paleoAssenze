@@ -19,7 +19,7 @@
         On my way
       </p>
       <form action="http://google.com/" method="get">
-        <button class="button is-paleoid" disabled onclick="load(this)"><img src="./media/paleoidremake.png">Login with PaleoID</button>
+        <button class="button is-paleoid" onclick="load(this)"><img src="./media/paleoidremake.png">Login with PaleoID</button>
       </form>
     </div>
   </section>
