@@ -21,10 +21,10 @@ button > img {
 }
 
 /*------------ Timetable ------------*/
-.timetable{
+#timetable{
   width: 100%;
 }
-.hour{
+.data{
   display: flex;
   gap: 1em;
 }
@@ -37,22 +37,22 @@ button > img {
   width: 4em;
   text-align: center;
 }
-.details{
+.report{
   background-color: #d8d8d8;
   padding: 1em;
 }
-.details>i{
+.report>i{
   float: right;
 }
-.details>div{
+.report>div{
   margin-top: 0.5em;
   display: flex;
   gap: 1em;
 }
-.details.closed{
+.report.closed{
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-.details.closed>div{
+.report.closed>div{
   display:none;
 }
